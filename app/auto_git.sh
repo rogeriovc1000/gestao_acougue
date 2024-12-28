@@ -25,4 +25,5 @@ git add .gitattributes
 git commit -m "Usando Git LFS para arquivos grandes"
 
 # Empurre as mudanças para o repositório remoto
-git push origin main
+
+gut push origin main --force
