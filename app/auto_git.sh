@@ -4,8 +4,8 @@
 # Defina a mensagem de commit
 COMMIT_MESSAGE="Atualizações automáticas"
 
-# Faça pull das mudanças remotas
-git pull origin main
+# Faça pull das mudanças remotas e mescle automaticamente
+git pull origin main --rebase
 
 # Adicione todas as mudanças
 git add .
