@@ -26,4 +26,4 @@ git commit -m "Usando Git LFS para arquivos grandes"
 
 # Empurre as mudanças para o repositório remoto
 
-gut push origin main --force
+git push origin main --force
